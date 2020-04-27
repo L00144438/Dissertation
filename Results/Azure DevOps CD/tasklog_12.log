@@ -1,0 +1,268 @@
+2020-04-18T22:33:31.9966852Z ##[section]Starting: Release
+2020-04-18T22:33:33.2439067Z ##[section]Starting: Initialize job
+2020-04-18T22:33:33.2439336Z Agent name: 'WIN-QRBKL3AEHAB'
+2020-04-18T22:33:33.2439396Z Agent machine name: 'WIN-QRBKL3AEHAB'
+2020-04-18T22:33:33.2439429Z Current agent version: '2.164.7'
+2020-04-18T22:33:33.2450001Z Agent running as: 'Administrator'
+2020-04-18T22:33:33.2478062Z Prepare release directory.
+2020-04-18T22:33:33.2490572Z ReleaseId=122, TeamProjectId=44244e31-15dd-47c1-bc40-0fbe84c1ae97, ReleaseDefinitionName=New release pipeline
+2020-04-18T22:33:33.2664932Z Release folder: C:\azagent\A3\_work\r1\a
+2020-04-18T22:33:33.2848995Z Environment variables available are below.  Note that these environment variables can be referred to in the task (in the ReleaseDefinition) by replacing "_" with "." e.g. AGENT_NAME environment variable can be referenced using Agent.Name in the ReleaseDefinition: 
+				[AGENT_DEPLOYMENTGROUPID] --> [10]
+				[AGENT_DISABLELOGPLUGIN_TESTFILEPUBLISHERPLUGIN] --> [true]
+				[AGENT_DISABLELOGPLUGIN_TESTRESULTLOGPLUGIN] --> [true]
+				[AGENT_HOMEDIRECTORY] --> [C:\azagent\A3]
+				[AGENT_ID] --> [9]
+				[AGENT_JOBNAME] --> [Release]
+				[AGENT_MACHINENAME] --> [WIN-QRBKL3AEHAB]
+				[AGENT_NAME] --> [WIN-QRBKL3AEHAB]
+				[AGENT_OS] --> [Windows_NT]
+				[AGENT_OSARCHITECTURE] --> [X64]
+				[AGENT_RELEASEDIRECTORY] --> [C:\azagent\A3\_work\r1\a]
+				[AGENT_RETAINDEFAULTENCODING] --> [false]
+				[AGENT_ROOTDIRECTORY] --> [C:\azagent\A3\_work]
+				[AGENT_SERVEROMDIRECTORY] --> [C:\azagent\A3\externals\vstsom]
+				[AGENT_TEMPDIRECTORY] --> [C:\azagent\A3\_work\_temp]
+				[AGENT_TOOLSDIRECTORY] --> [C:\azagent\A3\_work\_tool]
+				[AGENT_VERSION] --> [2.164.7]
+				[AGENT_WORKFOLDER] --> [C:\azagent\A3\_work]
+				[AZURE_HTTP_USER_AGENT] --> [VSTS_d93c728d-4469-4d59-966d-113379383fca_release_1_122_318_1]
+				[BUILD_BUILDID] --> [74]
+				[BUILD_BUILDNUMBER] --> [74]
+				[BUILD_BUILDURI] --> [vstfs:///Build/Build/74]
+				[BUILD_DEFINITIONID] --> [2]
+				[BUILD_DEFINITIONNAME] --> [Build]
+				[BUILD_PROJECTID] --> [44244e31-15dd-47c1-bc40-0fbe84c1ae97]
+				[BUILD_PROJECTNAME] --> [Test]
+				[BUILD_REPOSITORY_ID] --> [L00144438/Mock-Application]
+				[BUILD_REPOSITORY_NAME] --> [L00144438/Mock-Application]
+				[BUILD_REPOSITORY_PROVIDER] --> [GitHub]
+				[BUILD_REQUESTEDFOR] --> [Lee Tamplin]
+				[BUILD_REQUESTEDFORID] --> [0c1e2e3b-cd77-6c4e-afa5-b3057ddbc4c6]
+				[BUILD_SOURCEBRANCH] --> [refs/heads/master]
+				[BUILD_SOURCEBRANCHNAME] --> [master]
+				[BUILD_SOURCEVERSION] --> [45cfb4754506eff1e749efe53f70324d9d1e1c0a]
+				[BUILD_TYPE] --> [Build]
+				[GIT_TERMINAL_PROMPT] --> [0]
+				[MSDEPLOY_HTTP_USER_AGENT] --> [VSTS_d93c728d-4469-4d59-966d-113379383fca_release_1_122_318_1]
+				[RELEASE_ARTIFACTS__BUILD_BUILDID] --> [74]
+				[RELEASE_ARTIFACTS__BUILD_BUILDNUMBER] --> [74]
+				[RELEASE_ARTIFACTS__BUILD_BUILDURI] --> [vstfs:///Build/Build/74]
+				[RELEASE_ARTIFACTS__BUILD_DEFINITIONID] --> [2]
+				[RELEASE_ARTIFACTS__BUILD_DEFINITIONNAME] --> [Build]
+				[RELEASE_ARTIFACTS__BUILD_PROJECTID] --> [44244e31-15dd-47c1-bc40-0fbe84c1ae97]
+				[RELEASE_ARTIFACTS__BUILD_PROJECTNAME] --> [Test]
+				[RELEASE_ARTIFACTS__BUILD_REPOSITORY_ID] --> [L00144438/Mock-Application]
+				[RELEASE_ARTIFACTS__BUILD_REPOSITORY_NAME] --> [L00144438/Mock-Application]
+				[RELEASE_ARTIFACTS__BUILD_REPOSITORY_PROVIDER] --> [GitHub]
+				[RELEASE_ARTIFACTS__BUILD_REQUESTEDFOR] --> [Lee Tamplin]
+				[RELEASE_ARTIFACTS__BUILD_REQUESTEDFORID] --> [0c1e2e3b-cd77-6c4e-afa5-b3057ddbc4c6]
+				[RELEASE_ARTIFACTS__BUILD_SOURCEBRANCH] --> [refs/heads/master]
+				[RELEASE_ARTIFACTS__BUILD_SOURCEBRANCHNAME] --> [master]
+				[RELEASE_ARTIFACTS__BUILD_SOURCEVERSION] --> [45cfb4754506eff1e749efe53f70324d9d1e1c0a]
+				[RELEASE_ARTIFACTS__BUILD_TYPE] --> [Build]
+				[RELEASE_ATTEMPTNUMBER] --> [1]
+				[RELEASE_DEFINITIONENVIRONMENTID] --> [7]
+				[RELEASE_DEFINITIONID] --> [1]
+				[RELEASE_DEFINITIONNAME] --> [New release pipeline]
+				[RELEASE_DEPLOYMENT_REQUESTEDFOR] --> [Lee Tamplin]
+				[RELEASE_DEPLOYMENT_REQUESTEDFOREMAIL] --> [L00144438@student.lyit.ie]
+				[RELEASE_DEPLOYMENT_REQUESTEDFORID] --> [0c1e2e3b-cd77-6c4e-afa5-b3057ddbc4c6]
+				[RELEASE_DEPLOYMENT_STARTTIME] --> [2020-04-18 22:33:25Z]
+				[RELEASE_DEPLOYMENTID] --> [172]
+				[RELEASE_DEPLOYPHASEID] --> [172]
+				[RELEASE_ENVIRONMENTID] --> [318]
+				[RELEASE_ENVIRONMENTNAME] --> [Dev]
+				[RELEASE_ENVIRONMENTS_DEV_STATUS] --> [InProgress]
+				[RELEASE_ENVIRONMENTS_UAT_STATUS] --> [NotStarted]
+				[RELEASE_ENVIRONMENTURI] --> [vstfs:///ReleaseManagement/Environment/318]
+				[RELEASE_PRIMARYARTIFACTSOURCEALIAS] --> [_Build]
+				[RELEASE_REASON] --> [Manual]
+				[RELEASE_RELEASEDESCRIPTION] --> []
+				[RELEASE_RELEASEID] --> [122]
+				[RELEASE_RELEASENAME] --> [Release-111]
+				[RELEASE_RELEASEURI] --> [vstfs:///ReleaseManagement/Release/122]
+				[RELEASE_RELEASEWEBURL] --> [https://dev.azure.com/L00144438/44244e31-15dd-47c1-bc40-0fbe84c1ae97/_release?releaseId=122&_a=release-summary]
+				[RELEASE_REQUESTEDFOR] --> [Lee Tamplin]
+				[RELEASE_REQUESTEDFOREMAIL] --> [L00144438@student.lyit.ie]
+				[RELEASE_REQUESTEDFORID] --> [0c1e2e3b-cd77-6c4e-afa5-b3057ddbc4c6]
+				[RELEASE_SKIPARTIFACTSDOWNLOAD] --> [False]
+				[RELEASE_TRIGGERINGARTIFACT_ALIAS] --> []
+				[REQUESTEDFORID] --> [0c1e2e3b-cd77-6c4e-afa5-b3057ddbc4c6]
+				[SYSTEM] --> [deployment]
+				[SYSTEM_ARTIFACTSDIRECTORY] --> [C:\azagent\A3\_work\r1\a]
+				[SYSTEM_COLLECTIONID] --> [d93c728d-4469-4d59-966d-113379383fca]
+				[SYSTEM_CULTURE] --> [en-US]
+				[SYSTEM_DEFAULTWORKINGDIRECTORY] --> [C:\azagent\A3\_work\r1\a]
+				[SYSTEM_ENABLEACCESSTOKEN] --> [False]
+				[SYSTEM_HOSTTYPE] --> [deployment]
+				[SYSTEM_JOBID] --> [522a3ba5-775b-4190-b0be-08e5abd37f30]
+				[SYSTEM_JOBPARALLELISMTAG] --> [Private]
+				[SYSTEM_PLANID] --> [aed84cd9-59ec-4c5a-a3c5-cffe8f995baf]
+				[SYSTEM_SERVERTYPE] --> [Hosted]
+				[SYSTEM_TASKDEFINITIONSURI] --> [https://dev.azure.com/L00144438/]
+				[SYSTEM_TEAMFOUNDATIONCOLLECTIONURI] --> [https://dev.azure.com/L00144438/]
+				[SYSTEM_TEAMFOUNDATIONSERVERURI] --> [https://vsrm.dev.azure.com/L00144438/]
+				[SYSTEM_TEAMPROJECT] --> [Test]
+				[SYSTEM_TEAMPROJECTID] --> [44244e31-15dd-47c1-bc40-0fbe84c1ae97]
+				[SYSTEM_TIMELINEID] --> [aed84cd9-59ec-4c5a-a3c5-cffe8f995baf]
+				[SYSTEM_WORKFOLDER] --> [C:\azagent\A3\_work]
+2020-04-18T22:33:33.4684819Z Creating artifacts directory: C:\azagent\A3\_work\r1\a
+2020-04-18T22:33:33.4939830Z Created artifacts directory: C:\azagent\A3\_work\r1\a
+2020-04-18T22:33:33.5085101Z Download all required tasks.
+2020-04-18T22:33:33.5799539Z Downloading task: SqlDacpacDeploymentOnMachineGroup (0.3.21)
+2020-04-18T22:33:34.8634298Z Start tracking orphan processes.
+2020-04-18T22:33:34.8744543Z ##[section]Finishing: Initialize job
+2020-04-18T22:33:34.9985047Z ##[section]Starting: Download artifact - _Build - src
+2020-04-18T22:33:35.1802925Z ==============================================================================
+2020-04-18T22:33:35.1803162Z Task         : Download build artifacts
+2020-04-18T22:33:35.1803304Z Description  : Download files that were saved as artifacts of a completed build
+2020-04-18T22:33:35.1803364Z Version      : 0.156.1
+2020-04-18T22:33:35.1803421Z Author       : Microsoft Corporation
+2020-04-18T22:33:35.1803488Z Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/download-build-artifacts
+2020-04-18T22:33:35.1803544Z ==============================================================================
+2020-04-18T22:33:41.6940844Z Downloading artifacts for build: 74
+2020-04-18T22:33:41.8196737Z Downloading items from container resource #/8289207/src
+2020-04-18T22:33:41.8198135Z Downloading artifact src from: https://dev.azure.com/L00144438//_apis/resources/Containers/8289207?itemPath=src&isShallow=true&api-version=4.1-preview.4
+2020-04-18T22:33:45.4132128Z Downloading src/Data1.dat to C:\azagent\A3\_work\r1\a\_Build\src\Data1.dat
+2020-04-18T22:33:45.4168223Z Downloaded src/Data1.dat to C:\azagent\A3\_work\r1\a\_Build\src\Data1.dat
+2020-04-18T22:33:45.6138283Z Downloading src/testfail.ps1 to C:\azagent\A3\_work\r1\a\_Build\src\testfail.ps1
+2020-04-18T22:33:45.6264195Z Downloaded src/testfail.ps1 to C:\azagent\A3\_work\r1\a\_Build\src\testfail.ps1
+2020-04-18T22:33:45.8618827Z Downloading src/DacPac/MockDB.dacpac to C:\azagent\A3\_work\r1\a\_Build\src\DacPac\MockDB.dacpac
+2020-04-18T22:33:45.8643693Z Downloaded src/DacPac/MockDB.dacpac to C:\azagent\A3\_work\r1\a\_Build\src\DacPac\MockDB.dacpac
+2020-04-18T22:33:45.9148481Z Downloading src/Data/Data1.dat to C:\azagent\A3\_work\r1\a\_Build\src\Data\Data1.dat
+2020-04-18T22:33:45.9152972Z Downloaded src/Data/Data1.dat to C:\azagent\A3\_work\r1\a\_Build\src\Data\Data1.dat
+2020-04-18T22:33:46.0151648Z Downloading src/Data/Data2.dat to C:\azagent\A3\_work\r1\a\_Build\src\Data\Data2.dat
+2020-04-18T22:33:46.0160491Z Downloaded src/Data/Data2.dat to C:\azagent\A3\_work\r1\a\_Build\src\Data\Data2.dat
+2020-04-18T22:33:46.0183017Z Downloading src/Data/Data3.dat to C:\azagent\A3\_work\r1\a\_Build\src\Data\Data3.dat
+2020-04-18T22:33:46.0183873Z Downloaded src/Data/Data3.dat to C:\azagent\A3\_work\r1\a\_Build\src\Data\Data3.dat
+2020-04-18T22:33:46.0493880Z Downloading src/tests/testpass.ps1 to C:\azagent\A3\_work\r1\a\_Build\src\tests\testpass.ps1
+2020-04-18T22:33:46.0498815Z Downloaded src/tests/testpass.ps1 to C:\azagent\A3\_work\r1\a\_Build\src\tests\testpass.ps1
+2020-04-18T22:33:46.0867615Z Downloading src/tests/testfail.ps1 to C:\azagent\A3\_work\r1\a\_Build\src\tests\testfail.ps1
+2020-04-18T22:33:46.0874987Z Downloaded src/tests/testfail.ps1 to C:\azagent\A3\_work\r1\a\_Build\src\tests\testfail.ps1
+2020-04-18T22:33:47.0563141Z Total Files: 8, Processed: 8, Skipped: 0, Failed: 0, Download time: 5.234 secs, Download size: 2889Bytes
+2020-04-18T22:33:47.1100318Z Successfully downloaded artifacts to C:\azagent\A3\_work\r1\a/_Build/
+2020-04-18T22:33:47.1169718Z ##[section]Finishing: Download artifact - _Build - src
+2020-04-18T22:33:47.1305705Z ##[section]Starting: Stop Services
+2020-04-18T22:33:47.1535135Z ==============================================================================
+2020-04-18T22:33:47.1535193Z Task         : PowerShell
+2020-04-18T22:33:47.1535232Z Description  : Run a PowerShell script on Linux, macOS, or Windows
+2020-04-18T22:33:47.1535275Z Version      : 2.165.0
+2020-04-18T22:33:47.1535345Z Author       : Microsoft Corporation
+2020-04-18T22:33:47.1535381Z Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/powershell
+2020-04-18T22:33:47.1535414Z ==============================================================================
+2020-04-18T22:33:49.4081952Z Generating script.
+2020-04-18T22:33:49.4746476Z ========================== Starting Command Output ===========================
+2020-04-18T22:33:49.5136278Z ##[command]"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". 'C:\azagent\A3\_work\_temp\fadc0e5d-8c9b-4f92-b687-6a7c26460044.ps1'"
+2020-04-18T22:33:50.7014669Z ##[section]Finishing: Stop Services
+2020-04-18T22:33:50.7258291Z ##[section]Starting: Copy Files to: C:\Src
+2020-04-18T22:33:50.7454050Z ==============================================================================
+2020-04-18T22:33:50.7454102Z Task         : Copy files
+2020-04-18T22:33:50.7454191Z Description  : Copy files from a source folder to a target folder using patterns matching file paths (not folder paths)
+2020-04-18T22:33:50.7454222Z Version      : 2.164.0
+2020-04-18T22:33:50.7454251Z Author       : Microsoft Corporation
+2020-04-18T22:33:50.7454315Z Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/copy-files
+2020-04-18T22:33:50.7454345Z ==============================================================================
+2020-04-18T22:33:51.7508631Z found 8 files
+2020-04-18T22:33:51.7533930Z File C:\azagent\A3\_work\r1\a\_Build\src\DacPac\MockDB.dacpac already exist at C:\Src\DacPac\MockDB.dacpac
+2020-04-18T22:33:51.7546778Z File C:\azagent\A3\_work\r1\a\_Build\src\Data\Data1.dat already exist at C:\Src\Data\Data1.dat
+2020-04-18T22:33:51.7563408Z File C:\azagent\A3\_work\r1\a\_Build\src\Data\Data2.dat already exist at C:\Src\Data\Data2.dat
+2020-04-18T22:33:51.7564520Z File C:\azagent\A3\_work\r1\a\_Build\src\Data\Data3.dat already exist at C:\Src\Data\Data3.dat
+2020-04-18T22:33:51.7580692Z File C:\azagent\A3\_work\r1\a\_Build\src\Data1.dat already exist at C:\Src\Data1.dat
+2020-04-18T22:33:51.7581451Z File C:\azagent\A3\_work\r1\a\_Build\src\testfail.ps1 already exist at C:\Src\testfail.ps1
+2020-04-18T22:33:51.7595716Z File C:\azagent\A3\_work\r1\a\_Build\src\tests\testfail.ps1 already exist at C:\Src\tests\testfail.ps1
+2020-04-18T22:33:51.7620446Z File C:\azagent\A3\_work\r1\a\_Build\src\tests\testpass.ps1 already exist at C:\Src\tests\testpass.ps1
+2020-04-18T22:33:51.7747399Z ##[section]Finishing: Copy Files to: C:\Src
+2020-04-18T22:33:51.7915062Z ##[section]Starting: Backup DB
+2020-04-18T22:33:51.8225566Z ==============================================================================
+2020-04-18T22:33:51.8225719Z Task         : PowerShell
+2020-04-18T22:33:51.8225770Z Description  : Run a PowerShell script on Linux, macOS, or Windows
+2020-04-18T22:33:51.8225819Z Version      : 2.165.0
+2020-04-18T22:33:51.8225891Z Author       : Microsoft Corporation
+2020-04-18T22:33:51.8225941Z Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/powershell
+2020-04-18T22:33:51.8225988Z ==============================================================================
+2020-04-18T22:33:54.1090284Z Generating script.
+2020-04-18T22:33:54.2249128Z ========================== Starting Command Output ===========================
+2020-04-18T22:33:54.3138229Z ##[command]"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". 'C:\azagent\A3\_work\_temp\8f2af47b-4578-4749-920d-aa0d1a5982c1.ps1'"
+2020-04-18T22:33:59.7046738Z ##[section]Finishing: Backup DB
+2020-04-18T22:33:59.7308672Z ##[section]Starting: Deploy using : dacpac
+2020-04-18T22:33:59.7624018Z ==============================================================================
+2020-04-18T22:33:59.7624071Z Task         : SQL Server database deploy
+2020-04-18T22:33:59.7624099Z Description  : Deploy a SQL Server database using DACPAC or SQL scripts
+2020-04-18T22:33:59.7624134Z Version      : 0.3.21
+2020-04-18T22:33:59.7624162Z Author       : Microsoft Corporation
+2020-04-18T22:33:59.7624190Z Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/sql-dacpac-deployment-on-machine-group
+2020-04-18T22:33:59.7624217Z ==============================================================================
+2020-04-18T22:34:37.2081543Z Publishing to database 'MockThirdParty' on server 'localhost'. 
+2020-04-18T22:34:37.2082396Z Initializing deployment (Start) 
+2020-04-18T22:34:37.2082696Z Initializing deployment (Complete) 
+2020-04-18T22:34:37.2084919Z Analyzing deployment plan (Start) 
+2020-04-18T22:34:37.2085497Z Analyzing deployment plan (Complete) 
+2020-04-18T22:34:37.2085773Z Updating database (Start) 
+2020-04-18T22:34:37.2086195Z Update complete. 
+2020-04-18T22:34:37.2086435Z Updating database (Complete) 
+2020-04-18T22:34:37.2086682Z Successfully published database. 
+2020-04-18T22:34:37.2087587Z Time elapsed 00:00:31.73 
+2020-04-18T22:34:37.2087761Z 
+2020-04-18T22:34:37.2580681Z ##[section]Finishing: Deploy using : dacpac
+2020-04-18T22:34:37.2751904Z ##[section]Starting: Start Services
+2020-04-18T22:34:37.3088265Z ==============================================================================
+2020-04-18T22:34:37.3088320Z Task         : PowerShell
+2020-04-18T22:34:37.3088362Z Description  : Run a PowerShell script on Linux, macOS, or Windows
+2020-04-18T22:34:37.3088396Z Version      : 2.165.0
+2020-04-18T22:34:37.3088429Z Author       : Microsoft Corporation
+2020-04-18T22:34:37.3088462Z Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/powershell
+2020-04-18T22:34:37.3088667Z ==============================================================================
+2020-04-18T22:34:39.8700019Z Generating script.
+2020-04-18T22:34:39.9853807Z ========================== Starting Command Output ===========================
+2020-04-18T22:34:40.0362492Z ##[command]"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". 'C:\azagent\A3\_work\_temp\ff35dc15-82f9-4aed-bb0a-8a70b1350578.ps1'"
+2020-04-18T22:34:41.5838676Z ##[section]Finishing: Start Services
+2020-04-18T22:34:41.6033919Z ##[section]Starting: Run Tests
+2020-04-18T22:34:41.6251255Z ==============================================================================
+2020-04-18T22:34:41.6251405Z Task         : PowerShell
+2020-04-18T22:34:41.6251454Z Description  : Run a PowerShell script on Linux, macOS, or Windows
+2020-04-18T22:34:41.6251502Z Version      : 2.165.0
+2020-04-18T22:34:41.6251549Z Author       : Microsoft Corporation
+2020-04-18T22:34:41.6251689Z Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/powershell
+2020-04-18T22:34:41.6251736Z ==============================================================================
+2020-04-18T22:34:44.0418452Z Generating script.
+2020-04-18T22:34:44.0544790Z Formatted command: . 'C:\src\tests\testpass.ps1'
+2020-04-18T22:34:44.1603974Z ========================== Starting Command Output ===========================
+2020-04-18T22:34:44.2063444Z ##[command]"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". 'C:\azagent\A3\_work\_temp\12e201d6-f264-446f-9d83-0ff13f9df4f7.ps1'"
+2020-04-18T22:34:44.9017528Z Hello World from WIN-QRBKL3AEHAB.
+2020-04-18T22:34:44.9022753Z My ID is 9.
+2020-04-18T22:34:44.9023190Z AGENT_WORKFOLDER contents:
+2020-04-18T22:34:45.1077030Z 
+2020-04-18T22:34:45.1090136Z 
+2020-04-18T22:34:45.1116763Z     Directory: C:\azagent\A3\_work
+2020-04-18T22:34:45.1131696Z 
+2020-04-18T22:34:45.1133991Z 
+2020-04-18T22:34:45.1240086Z Mode                LastWriteTime         Length Name                                                                  
+2020-04-18T22:34:45.1242622Z ----                -------------         ------ ----                                                                  
+2020-04-18T22:34:45.1244356Z d-----       18/04/2020     23:33                r1                                                                    
+2020-04-18T22:34:45.1245215Z d-----       16/02/2020     00:07                r2                                                                    
+2020-04-18T22:34:45.1245967Z d-----       10/02/2020     00:02                ReleaseRootMapping                                                    
+2020-04-18T22:34:45.1246993Z d-----       18/04/2020     23:33                _tasks                                                                
+2020-04-18T22:34:45.1247701Z d-----       18/04/2020     23:34                _temp                                                                 
+2020-04-18T22:34:45.1248450Z d-----       10/02/2020     00:02                _tool                                                                 
+2020-04-18T22:34:45.1292541Z AGENT_BUILDDIRECTORY contents:
+2020-04-18T22:34:45.1345047Z 
+2020-04-18T22:34:45.1352592Z 
+2020-04-18T22:34:45.1358463Z     Directory: C:\azagent\A3\_work\r1\a
+2020-04-18T22:34:45.1360989Z 
+2020-04-18T22:34:45.1361732Z 
+2020-04-18T22:34:45.1363649Z Mode                LastWriteTime         Length Name                                                                  
+2020-04-18T22:34:45.1377744Z ----                -------------         ------ ----                                                                  
+2020-04-18T22:34:45.1411511Z d-----       18/04/2020     23:33                _Build                                                                
+2020-04-18T22:34:45.1512998Z BUILD_SOURCESDIRECTORY contents:
+2020-04-18T22:34:45.1522932Z d-----       18/04/2020     23:33                _Build                                                                
+2020-04-18T22:34:45.1554729Z End
+2020-04-18T22:34:45.1591558Z Should Pass
+2020-04-18T22:34:45.1699062Z 
+2020-04-18T22:34:45.1706574Z 
+2020-04-18T22:34:45.2748587Z ##[section]Finishing: Run Tests
+2020-04-18T22:34:45.3080993Z ##[section]Starting: Finalize Job
+2020-04-18T22:34:45.3157453Z Cleaning up task key
+2020-04-18T22:34:45.3159851Z Start cleaning up orphan processes.
+2020-04-18T22:34:45.3305879Z ##[section]Finishing: Finalize Job
+2020-04-18T22:34:45.3561221Z ##[section]Finishing: Release

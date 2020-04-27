@@ -1,0 +1,8 @@
+1.6,Initialise Job,succeeded
+2.1,Download Artefact,succeeded
+2.4,Stop Services,succeeded
+.3,Backup DB,succeeded
+.1,Copy Source,succeeded
+9.7,Deploy DacPac,succeeded
+2.7,Start Services,succeeded
+.1,Tests,succeeded
