@@ -1,9 +1,9 @@
-1.6,Initialise Job,succeeded,1.6,Initialise Job,succeeded,1.6,Initialise Job,succeeded,1.5,Initialise Job,succeeded,1.5,Initialise Job,succeeded,
-2.1,Download Artefact,succeeded,2.2,Download Artefact,succeeded,2.1,Download Artefact,succeeded,1.8,Download Artefact,succeeded,2.1,Download Artefact,succeeded,
-2.4,Stop Services,succeeded,2.4,Stop Services,succeeded,2.4,Stop Services,succeeded,2.4,Stop Services,succeeded,2.4,Stop Services,succeeded,
-0.4,Backup DB,succeeded,0.3,Backup DB,succeeded,0.3,Backup DB,succeeded,0.4,Backup DB,succeeded,0.2,Backup DB,succeeded,
-0.1,Copy Source,succeeded,0.1,Copy Source,succeeded,0.1,Copy Source,succeeded,0.1,Copy Source,succeeded,0.1,Copy Source,succeeded,
-10,Deploy DacPac,succeeded,9.5,Deploy DacPac,succeeded,9.7,Deploy DacPac,succeeded,9.9,Deploy DacPac,succeeded,10.1,Deploy DacPac,succeeded,
-2.8,Start Services,succeeded,2.7,Start Services,succeeded,2.7,Start Services,succeeded,2.7,Start Services,succeeded,2.8,Start Services,succeeded,
-0.1,Tests,succeeded,0.1,Tests,succeeded,0.1,Tests,succeeded,0.1,Tests,succeeded,0.1,Tests,succeeded,
-19.5,,,18.9,,,19,,,18.9,,,19.3,,,19.12
+1.6,Initialise Job,succeeded,1.6,Initialise Job,succeeded,1.6,Initialise Job,succeeded,1.5,Initialise Job,succeeded,1.5,Initialise Job,succeeded,,1.55,1.55
+2.1,Download Artefact,succeeded,2.2,Download Artefact,succeeded,2.1,Download Artefact,succeeded,1.8,Download Artefact,succeeded,2.1,Download Artefact,succeeded,,2.05,2.05
+2.4,Stop Services,succeeded,2.4,Stop Services,succeeded,2.4,Stop Services,succeeded,2.4,Stop Services,succeeded,2.4,Stop Services,succeeded,,2.4,2.7
+0.4,Backup DB,succeeded,0.3,Backup DB,succeeded,0.3,Backup DB,succeeded,0.4,Backup DB,succeeded,0.2,Backup DB,succeeded,,0.3,
+0.1,Copy Source,succeeded,0.1,Copy Source,succeeded,0.1,Copy Source,succeeded,0.1,Copy Source,succeeded,0.1,Copy Source,succeeded,,0.1,9.9
+10,Deploy DacPac,succeeded,9.5,Deploy DacPac,succeeded,9.7,Deploy DacPac,succeeded,9.9,Deploy DacPac,succeeded,10.1,Deploy DacPac,succeeded,,9.8,
+2.8,Start Services,succeeded,2.7,Start Services,succeeded,2.7,Start Services,succeeded,2.7,Start Services,succeeded,2.8,Start Services,succeeded,,2.725,2.725
+0.1,Tests,succeeded,0.1,Tests,succeeded,0.1,Tests,succeeded,0.1,Tests,succeeded,0.1,Tests,succeeded,,0.1,0.1
+19.5,,,18.9,,,19,,,18.9,,,19.3,,,19.12,,

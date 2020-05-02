@@ -1,10 +1,32 @@
-﻿Initialize job,00:00:01,00:00:01,00:00:01,00:00:00,00:00:00,
-Download artifact - _Build - src,00:00:13,00:00:09,00:00:07,00:00:04,00:00:05,
-Stop Services,00:00:03,00:00:04,00:00:04,00:00:03,00:00:04,
-Copy Files to: C:\Src,00:00:01,00:00:00,00:00:01,00:00:01,00:00:00,
-Backup DB,00:00:08,00:00:06,00:00:07,00:00:06,00:00:06,
-Deploy using : dacpac,00:00:38,00:00:14,00:00:14,00:00:13,00:00:14,
-Start Services,00:00:04,00:00:04,00:00:04,00:00:05,00:00:04,
-Run Tests,00:00:04,00:00:04,00:00:03,00:00:03,00:00:03,
-Finalize Job,00:00:00,00:00:00,00:00:00,00:00:00,00:00:00,
-,00:01:12,00:00:42,00:00:41,00:00:36,00:00:36,00:00:45
+﻿Run 1,,Run 2,,Run 3,,Run 4,,Run 5,
+Data,Duration,Data,Duration,Data,Duration,Data,Duration,Data,Duration
+2020-04-18T22:33:31.9966852Z ##[section]Starting: Release,,2020-04-18T22:36:18.8961096Z ##[section]Starting: Release,,2020-04-18T22:40:01.6594662Z ##[section]Starting: Release,,2020-04-18T22:41:31.3879520Z ##[section]Starting: Release,,2020-04-18T22:43:01.4315813Z ##[section]Starting: Release,
+2020-04-18T22:33:33.2439067Z ##[section]Starting: Initialize job,,2020-04-18T22:36:19.9744814Z ##[section]Starting: Initialize job,,2020-04-18T22:40:02.7759034Z ##[section]Starting: Initialize job,,2020-04-18T22:41:32.5231959Z ##[section]Starting: Initialize job,,2020-04-18T22:43:02.4500729Z ##[section]Starting: Initialize job,
+2020-04-18T22:33:34.8744543Z ##[section]Finishing: Initialize job,3,2020-04-18T22:36:20.4160088Z ##[section]Finishing: Initialize job,2,2020-04-18T22:40:03.2715902Z ##[section]Finishing: Initialize job,2,2020-04-18T22:41:32.9216762Z ##[section]Finishing: Initialize job,1,2020-04-18T22:43:02.8393917Z ##[section]Finishing: Initialize job,1
+2020-04-18T22:33:34.9985047Z ##[section]Starting: Download artifact - _Build - src,,2020-04-18T22:36:20.5417773Z ##[section]Starting: Download artifact - _Build - src,,2020-04-18T22:40:03.4064391Z ##[section]Starting: Download artifact - _Build - src,,2020-04-18T22:41:33.0502635Z ##[section]Starting: Download artifact - _Build - src,,2020-04-18T22:43:02.9571333Z ##[section]Starting: Download artifact - _Build - src,
+2020-04-18T22:33:47.1169718Z ##[section]Finishing: Download artifact - _Build - src,13,2020-04-18T22:36:29.1617601Z ##[section]Finishing: Download artifact - _Build - src,9,2020-04-18T22:40:10.7037521Z ##[section]Finishing: Download artifact - _Build - src,7,2020-04-18T22:41:37.4243645Z ##[section]Finishing: Download artifact - _Build - src,4,2020-04-18T22:43:07.4697050Z ##[section]Finishing: Download artifact - _Build - src,5
+2020-04-18T22:33:47.1305705Z ##[section]Starting: Stop Services,,2020-04-18T22:36:29.2004628Z ##[section]Starting: Stop Services,,2020-04-18T22:40:10.7231918Z ##[section]Starting: Stop Services,,2020-04-18T22:41:37.4428165Z ##[section]Starting: Stop Services,,2020-04-18T22:43:07.4892080Z ##[section]Starting: Stop Services,
+2020-04-18T22:33:50.7014669Z ##[section]Finishing: Stop Services,3,2020-04-18T22:36:33.0979354Z ##[section]Finishing: Stop Services,4,2020-04-18T22:40:14.4328609Z ##[section]Finishing: Stop Services,4,2020-04-18T22:41:40.9615017Z ##[section]Finishing: Stop Services,3,2020-04-18T22:43:11.2718068Z ##[section]Finishing: Stop Services,4
+2020-04-18T22:33:50.7258291Z ##[section]Starting: Copy Files to: C:\Src,,2020-04-18T22:36:33.1274289Z ##[section]Starting: Copy Files to: C:\Src,,2020-04-18T22:40:14.4517527Z ##[section]Starting: Copy Files to: C:\Src,,2020-04-18T22:41:40.9800032Z ##[section]Starting: Copy Files to: C:\Src,,2020-04-18T22:43:11.3045228Z ##[section]Starting: Copy Files to: C:\Src,
+2020-04-18T22:33:51.7747399Z ##[section]Finishing: Copy Files to: C:\Src,1,2020-04-18T22:36:33.6936524Z ##[section]Finishing: Copy Files to: C:\Src,0,2020-04-18T22:40:15.6200277Z ##[section]Finishing: Copy Files to: C:\Src,1,2020-04-18T22:41:41.5860650Z ##[section]Finishing: Copy Files to: C:\Src,1,2020-04-18T22:43:11.8095597Z ##[section]Finishing: Copy Files to: C:\Src,0
+2020-04-18T22:33:51.7915062Z ##[section]Starting: Backup DB,,2020-04-18T22:36:33.7121780Z ##[section]Starting: Backup DB,,2020-04-18T22:40:15.6451852Z ##[section]Starting: Backup DB,,2020-04-18T22:41:41.6036139Z ##[section]Starting: Backup DB,,2020-04-18T22:43:11.8267396Z ##[section]Starting: Backup DB,
+2020-04-18T22:33:59.7046738Z ##[section]Finishing: Backup DB,8,2020-04-18T22:36:39.4160436Z ##[section]Finishing: Backup DB,6,2020-04-18T22:40:22.1841590Z ##[section]Finishing: Backup DB,7,2020-04-18T22:41:47.0511096Z ##[section]Finishing: Backup DB,6,2020-04-18T22:43:17.9460928Z ##[section]Finishing: Backup DB,6
+2020-04-18T22:33:59.7308672Z ##[section]Starting: Deploy using : dacpac,,2020-04-18T22:36:39.4357673Z ##[section]Starting: Deploy using : dacpac,,2020-04-18T22:40:22.2046176Z ##[section]Starting: Deploy using : dacpac,,2020-04-18T22:41:47.0745555Z ##[section]Starting: Deploy using : dacpac,,2020-04-18T22:43:17.9694433Z ##[section]Starting: Deploy using : dacpac,
+2020-04-18T22:34:37.2580681Z ##[section]Finishing: Deploy using : dacpac,38,2020-04-18T22:36:53.7549751Z ##[section]Finishing: Deploy using : dacpac,14,2020-04-18T22:40:36.5211143Z ##[section]Finishing: Deploy using : dacpac,14,2020-04-18T22:42:00.7246467Z ##[section]Finishing: Deploy using : dacpac,13,2020-04-18T22:43:31.7052927Z ##[section]Finishing: Deploy using : dacpac,14
+2020-04-18T22:34:37.2751904Z ##[section]Starting: Start Services,,2020-04-18T22:36:53.7733724Z ##[section]Starting: Start Services,,2020-04-18T22:40:36.5363186Z ##[section]Starting: Start Services,,2020-04-18T22:42:00.7435958Z ##[section]Starting: Start Services,,2020-04-18T22:43:31.7220140Z ##[section]Starting: Start Services,
+2020-04-18T22:34:41.5838676Z ##[section]Finishing: Start Services,4,2020-04-18T22:36:57.5617868Z ##[section]Finishing: Start Services,4,2020-04-18T22:40:40.1962568Z ##[section]Finishing: Start Services,4,2020-04-18T22:42:05.3938431Z ##[section]Finishing: Start Services,5,2020-04-18T22:43:35.3480121Z ##[section]Finishing: Start Services,4
+2020-04-18T22:34:41.6033919Z ##[section]Starting: Run Tests,,2020-04-18T22:36:57.5897016Z ##[section]Starting: Run Tests,,2020-04-18T22:40:40.2173030Z ##[section]Starting: Run Tests,,2020-04-18T22:42:05.4331299Z ##[section]Starting: Run Tests,,2020-04-18T22:43:35.3682477Z ##[section]Starting: Run Tests,
+2020-04-18T22:34:45.2748587Z ##[section]Finishing: Run Tests,4,2020-04-18T22:37:01.0093115Z ##[section]Finishing: Run Tests,4,2020-04-18T22:40:43.4123442Z ##[section]Finishing: Run Tests,3,2020-04-18T22:42:08.6383971Z ##[section]Finishing: Run Tests,3,2020-04-18T22:43:38.6259504Z ##[section]Finishing: Run Tests,3
+2020-04-18T22:34:45.3080993Z ##[section]Starting: Finalize Job,,2020-04-18T22:37:01.0405014Z ##[section]Starting: Finalize Job,,2020-04-18T22:40:43.4366842Z ##[section]Starting: Finalize Job,,2020-04-18T22:42:08.6601650Z ##[section]Starting: Finalize Job,,2020-04-18T22:43:38.6575348Z ##[section]Starting: Finalize Job,
+2020-04-18T22:34:45.3305879Z ##[section]Finishing: Finalize Job,,2020-04-18T22:37:01.0603739Z ##[section]Finishing: Finalize Job,,2020-04-18T22:40:43.5720832Z ##[section]Finishing: Finalize Job,,2020-04-18T22:42:08.7185918Z ##[section]Finishing: Finalize Job,,2020-04-18T22:43:38.6777508Z ##[section]Finishing: Finalize Job,
+2020-04-18T22:34:45.3561221Z ##[section]Finishing: Release,0,2020-04-18T22:37:01.0827867Z ##[section]Finishing: Release,0,2020-04-18T22:40:43.5970172Z ##[section]Finishing: Release,0,2020-04-18T22:42:08.7383416Z ##[section]Finishing: Release,0,2020-04-18T22:43:38.7019994Z ##[section]Finishing: Release,0
+,,,,,,,,,
+,,,,,,,,,
+Category,Run 1,Run 2,Run 3,Run 4,Run 5,Average,,,
+Initialise Job,3,2,2,1,1,1.8,,,
+Copy Files,13,9,7,4,5,7.6,,,
+Prepare Infrastructure,11,10,11,9,10,10.2,,,
+Apply Modfications,39,14,15,14,14,19.2,,,
+Prepare Infrastructure,4,4,4,5,4,4.2,,,
+Testing,4,4,3,3,3,3.4,,,
+Total,74,43,42,36,37,46.4,,,
